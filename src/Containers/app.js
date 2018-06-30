@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
+import IndexPageContainer from './IndexPageContainer';
+import { Route, Switch } from 'react-router';
 
-// This will have all routes etc
+// This will return all routes etc later on
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        Hello world
-      </div>
+      <IndexPageContainer />
     );
   }
 }
